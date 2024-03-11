@@ -1,0 +1,12 @@
+ENTRADA: nome, salFixo, totalVendas
+SAÍDAS: salFinal
+
+real salFixo, totalVendas, salFinal;
+
+caracteres nome;
+leia(nome);
+leia(salFixo);
+leia(totalVendas);
+
+salFinal = salFixo + (totalVendas*0.15);
+escreva(salFinal);

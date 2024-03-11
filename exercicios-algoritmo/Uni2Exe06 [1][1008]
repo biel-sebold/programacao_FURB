@@ -1,0 +1,13 @@
+ENTRADA: nº horas, n° func, valor hora
+SAÍDAS: n° func, salario
+
+inteiro numeroHoras, numFunc;
+real valorHora, salario;
+
+leia(numFunc);
+leia(numHoras);
+leia(valorHora);
+Salario = numHoras*valorHora;
+
+escreva(numFunc)
+escreva(salario)

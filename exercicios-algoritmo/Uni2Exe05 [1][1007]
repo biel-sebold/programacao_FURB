@@ -1,0 +1,12 @@
+ENTRADA: A, B, C, D
+SAÍDAS: diff produto
+
+inteiro a, b, c, d, diff;
+
+leia(a);
+leia(b);
+leia(c);
+leia(d);
+
+diff = ((a*b) - (c*d));
+escreva(diff);
