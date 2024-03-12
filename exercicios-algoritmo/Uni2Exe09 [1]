@@ -1,10 +1,11 @@
 ENTRADA: totalDolares
 SAÍDA: totalReais
 
-real totalDolares, totalReais, cotacao;
-cotacao = 4.9528;
+real: totalDolares, totalReais, cotacao
+cotacao: 4,9528
 
-leia(totalDolares);
+leia(totalDolares)
 
-totalReais = totalDolares*cotacao;
-escreva(totalReais);
+totalReais = totalDolares*cotacao
+
+escreva(totalReais)
