@@ -1,0 +1,25 @@
+Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um valor monetário. A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2. As moedas possíveis são de 1, 0,50, 0,25, 0,10, 0,05 e 0,01. A seguir mostre a relação de notas de permissão.
+
+
+
+
+ENTRADA: valorMon, notasConsideradas, moedasConsideradas
+SAÍDA: nMoedasDecomposicao, nCélulasDecomposicao
+
+flutuante valorMon
+inteiro notasConsideradas, moedasConsideradas, nMoedasDecomposicao, nCélulasDecomposicao
+
+leia (valorMon)
+
+nCélulasDecomposicao = 100, 50, 20, 10, 5, 2, 1
+nMoedasDecomposicao = 1; 0,50; 0,25; 0,10; 0,05; 0,01
+
+leia (nCélulasDecomposicao)
+leia (nMoedasDecomposicao)
+
+nCélulasDecomposicao = valorMon - notasConsideradas
+
+nMoedasDecomposicao = (valorMon - notasConsideradas) - moedasConsideradas
+
+escreva (nMoedasDecomposicao)
+escreva (nCélulasDecomposicao)

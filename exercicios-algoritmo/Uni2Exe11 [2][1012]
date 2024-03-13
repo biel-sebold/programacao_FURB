@@ -1,0 +1,36 @@
+Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
+a) a área do triângulo retângulo que tem A por base e C por altura.
+b) a área do círculo de raio C. (pi = 3,14159).
+c) uma área do trapézio que tem A e B por bases e C por altura.
+d) uma área do quadrado que tem lado B.
+e) uma área do retângulo que tem lados A e B.
+
+
+
+
+
+ENTRADA: numA, numB, numC
+SAÍDA: areaTriRet_baseA_alturaC, areaCirculo_rC, areaTrap_baseAB_alturaC, areaQuad_ladoB, areaRet_ladoAB
+
+flutuante duplo numA, numB, numC
+
+leia(numA)
+leia(numB)
+leia(numC)
+
+areaTriRet_baseA_alturaC = numA*numC / 2
+
+areaCirculo_rC = 3,14159*numC^2
+
+areaTrap_baseAB_alturaC = (numA+numB)*numC / 2
+
+areaQuad_ladoB = numB*numB
+
+areaRet_ladoAB = numA*numB
+
+
+escreva (areaTriRet_baseA_alturaC)
+escreva (areaCirculo_rC)
+escreva (areaTrap_baseAB_alturaC)
+escreva (areaQuad_ladoB)
+escreva (areaRet_ladoAB)
