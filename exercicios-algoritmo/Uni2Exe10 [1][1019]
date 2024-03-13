@@ -4,7 +4,7 @@ Leia um valor inteiro, que é o tempo de duração em segundos de um determinado
 
 
 ENTRADA: tEventoSegundos
-SAÍDA: tEventoHoras
+SAÍDA: tEventoHoras (minutos:segundos)
 
 inteiro tEventoSegundos
 inteiro tEventoHoras
