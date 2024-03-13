@@ -11,4 +11,4 @@ inteiro tEventoHoras
 
 leia(tEventoSegundos)
 tEventoHoras = tEventoSegundos / 60
-leia (tEventoHoras)
+escreva (tEventoHoras)
