@@ -13,7 +13,7 @@ public class MeusDados {
 
         System.out.println("ENDEREÇO:\n");
 
-        System.out.println("\tRua Ricardo Koball 410\n Bairro Escola Agrícola");
+        System.out.println("\tRua Ricardo Koball 410\n \tBairro Escola Agrícola");
 
 
         
