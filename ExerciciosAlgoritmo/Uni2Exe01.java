@@ -2,19 +2,24 @@ package ExerciciosAlgoritmo;
 
 import java.util.Scanner;
 
-import org.xml.sax.SAXException;
-
 public class Uni2Exe01 {
     public static void main(String[] args) {
         //Leia 2 valores inteiros e imprima sua soma.
 
-        Scanner teclado = new Scanner (System.in);
+        Scanner dig = new Scanner (System.in);
+        System.out.print("Informe dois números: ");
 
-        int A = teclado.nextInt();
-        int B = teclado.nextInt();
-        int x = A + B;
+        int A = dig.nextInt();
+        int B = dig.nextInt();
+        int soma = A + B;
 
-        System.out.println("X = " + x);
+     System.out.println("A soma é " + soma);
+
+//EXEMPLO CONCATENAÇÃO            
+    //System.out.printf("A soma de %d com %d é: %d%n", A, B, x);
+
+
+
 
 
 
