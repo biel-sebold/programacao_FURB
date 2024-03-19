@@ -9,14 +9,14 @@ public class Uni2Exe01 {
         Scanner dig = new Scanner (System.in);
         System.out.print("Informe dois números: ");
 
-        int A = dig.nextInt();
-        int B = dig.nextInt();
-        int soma = A + B;
+        int n1 = dig.nextInt();
+        int n2 = dig.nextInt();
+        int soma = n1 + n2;
 
      System.out.println("A soma é " + soma);
 
 //EXEMPLO CONCATENAÇÃO            
-    //System.out.printf("A soma de %d com %d é: %d%n", A, B, x);
+    //System.out.printf("A soma de %d com %d é: %d%n", n1, n2, soma);
 
 
 
