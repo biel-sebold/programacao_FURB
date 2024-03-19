@@ -11,9 +11,9 @@ public class Uni2Exe03 {
 
     double raio = dig.nextDouble();
     double π = (3.14159);
-    double area = raio * π;
+    double area = (raio * raio) * π;
 
-    System.out.println("A área");
+    System.out.println("A área da faixa é igual a: " + area);
 
 
         

@@ -1,1 +1,16 @@
 Leia 2 valores inteiros e imprima sua soma.
+
+
+
+
+
+ENTRADA: num1, num2
+SAÍDA: soma
+
+inteiro num1, num2
+
+leia(num1);
+leia(num2);
+
+soma = num1 + num2;
+escreva(soma);
