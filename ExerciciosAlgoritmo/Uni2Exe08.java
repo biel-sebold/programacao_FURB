@@ -31,14 +31,7 @@ Scanner dig = new Scanner (System.in);
     System.out.println("O valor total a ser pago será: " + valorTotal);
 
 
-
-
-
-
-
-
-
-        
-    }
+    dig.close();
+ }
     
 }
