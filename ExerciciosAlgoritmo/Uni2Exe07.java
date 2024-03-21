@@ -1,5 +1,6 @@
 package ExerciciosAlgoritmo;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Uni2Exe07{
@@ -8,7 +9,27 @@ public class Uni2Exe07{
 
      Scanner dig = new Scanner (System.in);
 
-     System.out.print("Informe o nome do vendedor, salário e o total de vendas mensal: ");
+      DecimalFormat padrao = new DecimalFormat("00.00");
+
+     System.out.print("Informe o nome do vendedor: ");
+     String nomeFunc = dig.nextLine();
+
+     System.out.print("Informe seu salário fixo: ");
+     double salFixo = dig.nextDouble();
+
+     System.out.print("Informe o total de vendas efetuadas por ele no mês: ");
+     double totalVendas = dig.nextDouble();
+
+     double salFinal = salFixo + (totalVendas*0.15);
+
+     System.out.println("O total a receber no final do mês será: " + salFinal);
+
+
+
+     
+
+
+
 
 
     

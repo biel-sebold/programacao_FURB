@@ -23,7 +23,9 @@ public class OperacaoMatematica {
         System.out.println(raiz);
     }
 //CONSTANTES//
-        double pi = Math(PI);
+
+
+        
 
 
     

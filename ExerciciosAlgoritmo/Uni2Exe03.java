@@ -7,16 +7,14 @@ public class Uni2Exe03 {
     //Calcule a área da faixa elevando o valor do raio ao quadrado e multiplicando por π (π = 3,14159).
 
     Scanner dig = new Scanner (System.in);
-    System.out.println("Informe o valor do raio");
+    System.out.print("Informe o valor do raio: ");
 
     double raio = dig.nextDouble();
-    double π = (3.14159);
-    double area = (raio * raio) * π;
+    double rQuadrado = Math.pow(raio, 2);
+    double pi = Math.PI;
+    double area = rQuadrado * pi;
 
-    System.out.println("A área da faixa é igual a: " + area);
 
-
-        
+    System.out.println("A área da faixa é igual a: " + area); 
     }
-    
-}
+}    
