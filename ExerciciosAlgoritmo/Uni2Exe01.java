@@ -14,6 +14,9 @@ public class Uni2Exe01 {
         int soma = n1 + n2;
 
      System.out.println("A soma é " + soma);
+     
+
+     dig.close();
 
 //EXEMPLO CONCATENAÇÃO            
     //System.out.printf("A soma de %d com %d é: %d%n", n1, n2, soma);

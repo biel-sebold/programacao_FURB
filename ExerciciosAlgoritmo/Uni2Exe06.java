@@ -15,6 +15,10 @@ public class Uni2Exe06 {
 
         System.out.println("O funcionário " + numFunc + " possui o salário " + salario);
 
+
+        dig.close();
+
+
     //EXEMPLO CONCATENAÇÃO
         
 

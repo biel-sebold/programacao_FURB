@@ -8,8 +8,8 @@ public class Uni2Exe07{
      //Faça um programa que leia o nome de um vendedor, seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informe o total a receber no final do mês, com duas casas decimais.
 
      Scanner dig = new Scanner (System.in);
-
-      DecimalFormat padrao = new DecimalFormat("00.00");
+     
+     DecimalFormat padrao = new DecimalFormat("00.00");
 
      System.out.print("Informe o nome do vendedor: ");
      String nomeFunc = dig.nextLine();
@@ -25,14 +25,7 @@ public class Uni2Exe07{
      System.out.println("O total a receber no final do mês será: " + salFinal);
 
 
-
-     
-
-
-
-
-
-    
+    dig.close();
 }
 
     

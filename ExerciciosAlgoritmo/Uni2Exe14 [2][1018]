@@ -4,16 +4,22 @@ Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (c�
 
 
 ENTRADA: valorReais, notasConsideradas
-SAÍDA: valorReais, nCélulasDecomposicao
+SAÍDA: valorLido, nCélulasDecomposicao
 
-inteiro valorReais, notasConsideradas, nCélulasDecomposicao
+inteiro valorReais, valorLido, notas, quantidadeNotas
 
 leia (valorReais)
 
-notasConsideradas = 100, 50, 20, 10, 5, 2, 1
-leia (notasConsideradas)
+notasConsideradas = {100, 50, 20, 10, 5, 2, 1}
 
-nCélulasDecomposicao = valorReais - notasConsideradas
-escreva (nCélulasDecomposicao)
+leia (valorLido)
+
+for ler nota:notas (variável nota, que é usada para armazenar cada elemento do array notas em cada iteração do loop)
+
+quantidadeNotas = valor / nota
+
+valor%= nota(calcula o resto da divisão do valor pelo valor da nota atual e atribui o resultado ao próprio valor)
+
+escreva (quantidadeNotas)
 
 

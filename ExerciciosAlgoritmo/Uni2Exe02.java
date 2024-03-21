@@ -1,6 +1,5 @@
 package ExerciciosAlgoritmo;
 
-import java.net.SocketTimeoutException;
 import java.util.Scanner;
 
 public class Uni2Exe02 {
@@ -15,6 +14,10 @@ public class Uni2Exe02 {
         int mul = n1 * n2;
 
         System.out.println("O valor da multiplicação será: " + mul);
+
+
+        dig.close();
+
 
     //EXEMPLO CONCATENAÇÃO
         //System.out.printf("A multiplicação de %d por %d terá como resultado %d", n1, n2, mul);

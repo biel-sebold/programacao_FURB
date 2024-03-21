@@ -10,11 +10,15 @@ public class Uni2Exe03 {
     System.out.print("Informe o valor do raio: ");
 
     double raio = dig.nextDouble();
-    double rQuadrado = Math.pow(raio, 2);
+    double quadrado = Math.pow(raio, 2);
     double pi = Math.PI;
-    double area = rQuadrado * pi;
+    double area = quadrado * pi;
 
 
-    System.out.println("A área da faixa é igual a: " + area); 
+    System.out.println("A área da faixa é igual a: " + area);
+    
+    
+    dig.close();
+
     }
 }    

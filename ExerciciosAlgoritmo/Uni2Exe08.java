@@ -8,20 +8,23 @@ public class Uni2Exe08 {
 
 Scanner dig = new Scanner (System.in);
 
-    System.out.println("Informe o código da peça 1: ");
+    System.out.print("Informe o código da peça 1: ");
     int codP1 = dig.nextInt();
 
-    System.out.println("Informe o número de peças 1: ");
+    System.out.print("Informe o número de peças 1: ");
     int numTotalP1 = dig.nextInt();
 
-    System.out.println("Informe o valor unitário da peça 1: ");
+    System.out.print("Informe o valor unitário da peça 1: ");
     double valorUniP1 = dig.nextDouble();
 
     
-    
-
+    System.out.print("Informe o código da peça 2: ");
     int codP2 = dig.nextInt();
+
+    System.out.print("Informe o número de peças 2: ");
     int numTotalP2 = dig.nextInt();
+
+    System.out.print("Informe o valor unitário da peça 2: ");
     double valorUniP2 = dig.nextDouble();
 
     double valorTotal = (numTotalP1*valorUniP1) + (numTotalP2*valorUniP2);
