@@ -22,7 +22,7 @@ public class Uni2Exe07{
 
      double salFinal = salFixo + (totalVendas*0.15);
 
-     System.out.println("O total a receber no final do mês será: " + salFinal);
+     System.out.println("O total a receber no final do mês será: R$" + salFinal);
 
 
     dig.close();

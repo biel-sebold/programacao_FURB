@@ -16,7 +16,7 @@ public class Uni2Exe09 {
     double cotacao = 4.9528;
 
     double valorReais = valorDolares * cotacao;
-    System.out.print("O atendente deve devolver à pessoa " + valorReais);
+    System.out.print("O atendente deve devolver à pessoa R$" + valorReais);
 
     dig.close();
 

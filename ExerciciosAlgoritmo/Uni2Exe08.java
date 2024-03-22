@@ -28,7 +28,7 @@ Scanner dig = new Scanner (System.in);
     double valorUniP2 = dig.nextDouble();
 
     double valorTotal = (numTotalP1*valorUniP1) + (numTotalP2*valorUniP2);
-    System.out.println("O valor total a ser pago será: " + valorTotal);
+    System.out.println("O valor total a ser pago será: R$" + valorTotal);
 
 
     dig.close();

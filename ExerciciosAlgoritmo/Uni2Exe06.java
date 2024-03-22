@@ -13,7 +13,7 @@ public class Uni2Exe06 {
         float valorHora = dig.nextFloat(); 
         float salario = numHoras * valorHora;
 
-        System.out.println("O funcionário " + numFunc + " possui o salário " + salario);
+        System.out.println("O funcionário " + numFunc + " possui o salário R$" + salario);
 
 
         dig.close();
