@@ -8,7 +8,6 @@ public class Uni2Exe12 {
         //Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula:
 
         Scanner dig = new Scanner(System.in);
-        DecimalFormat padrao = new DecimalFormat("###,##0.00");
 
         System.out.print("Informe a coordenada x1: ");
         int x1 = dig.nextInt();
@@ -26,7 +25,7 @@ public class Uni2Exe12 {
         double yquadrado = Math.pow(y2-y1, 2);
         double distânciaPontos = Math.sqrt(xquadrado+yquadrado);
 
-        System.out.println("A distância dos pontos é igual a: " + distânciaPontos);
+        System.out.printf("A distância dos pontos é igual a: %.4f ", distânciaPontos);
 
         dig.close();
 

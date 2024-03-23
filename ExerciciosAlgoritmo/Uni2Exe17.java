@@ -31,8 +31,8 @@ public class Uni2Exe17 {
         
         System.out.println("\nRELATÓRIO FINAL:");
         System.out.println("Nome: " + nome);
-        System.out.println("Salário Bruto: R$" + salBruto);
-        System.out.println("Salário Líquido: R$" + salLiquido);
+        System.out.printf("Salário Bruto: R$%.2f\n", salBruto);
+        System.out.printf("Salário Líquido: R$%.2f", salLiquido);
 
         dig.close();
     }

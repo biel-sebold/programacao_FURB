@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Uni2Exe15 {
     public static void main(String[] args) {
         //AJUDADO//
-
         //Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um valor monetário. A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2. As moedas possíveis são de 1, 0,50, 0,25, 0,10, 0,05 e 0,01. A seguir mostre a relação de notas de permissão.
 
         Scanner dig = new Scanner(System.in);
@@ -22,6 +21,7 @@ public class Uni2Exe15 {
             for(int nota : notas){
                double quantidadeNotas = valor/nota;
                valor %= nota;
+               System.out.printf("%f notas de %f\n", quantidadeNotas, nota);
             }
             for(double moeda : moedas) {
                int quantidadeMoedas = (int)(valor / moeda);
@@ -29,6 +29,6 @@ public class Uni2Exe15 {
                System.out.printf("%.0f moeda(s) de %.2f\n", quantidadeMoedas, moeda);
             } 
             
-        dig.close();           
+        dig.close()   
     }   
 }

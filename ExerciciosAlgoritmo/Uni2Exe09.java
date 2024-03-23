@@ -9,17 +9,14 @@ public class Uni2Exe09 {
 
     Scanner dig = new Scanner(System.in);
 
-    DecimalFormat padrao = new DecimalFormat("00.00");
-
     System.out.print("Insira o valor em dólares entregue: ");
     double valorDolares = dig.nextDouble();
     double cotacao = 4.9528;
 
     double valorReais = valorDolares * cotacao;
-    System.out.print("O atendente deve devolver à pessoa R$" + valorReais);
+    System.out.printf("O atendente deve devolver à pessoa R$%.2f", valorReais);
 
     dig.close();
-
 
     }
     

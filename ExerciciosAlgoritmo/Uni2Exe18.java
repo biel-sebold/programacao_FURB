@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Uni2Exe18 {
     public static void main(String[] args) {
+        //AJUDADO//
         //Numa loja de materiais de construção, um azulejo estampado custa R$ 12,50. Leia o comprimento e altura de uma parede (em metros) e escreva o valor gasto com a compra de azulejos. Considere que um metro quadrado é formado por 9 azulejos.
 
         Scanner dig = new Scanner(System.in);
@@ -14,14 +15,14 @@ public class Uni2Exe18 {
         System.out.print("Considerando uma parede, informe seu comprimento em metros: ");
         int comprimento = dig.nextInt();
 
-        System.out.println("Agora informe a sua altura: ");
+        System.out.print("Agora informe a sua altura: ");
         int altura = dig.nextInt();
 
         double areaParede = comprimento * altura;
         double quantidadeAzulejos = Math.ceil(areaParede*m2);
         double valor = quantidadeAzulejos * preçoAzulejo;
 
-        System.out.println("O valor gasto foi: R$" + valor);
+        System.out.printf("O valor gasto foi: R$%.2f", valor);
 
         dig.close();
 
