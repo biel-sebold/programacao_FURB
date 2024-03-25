@@ -1,6 +1,5 @@
 package ExerciciosAlgoritmo;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Uni2Exe09 {
