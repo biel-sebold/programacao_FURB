@@ -1,6 +1,5 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Uni2Exe12 {
@@ -26,17 +25,6 @@ public class Uni2Exe12 {
         double distancia = Math.sqrt(xquadrado+yquadrado);
 
         System.out.printf("A distância dos pontos é igual a: %.4f ", distancia);
-
-        dig.close();
-
-
-
-
-
-        
-
-
-
 
     }
     

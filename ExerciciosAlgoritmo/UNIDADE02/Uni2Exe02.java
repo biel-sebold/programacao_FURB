@@ -1,4 +1,4 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
 import java.util.Scanner;
 
@@ -14,9 +14,6 @@ public class Uni2Exe02 {
         int mul = n1 * n2;
 
         System.out.println("O valor da multiplicação será: " + mul);
-
-
-        dig.close();
 
 
     //EXEMPLO CONCATENAÇÃO

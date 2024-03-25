@@ -1,6 +1,5 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Uni2Exe10 {
@@ -22,8 +21,6 @@ public class Uni2Exe10 {
       - Os segundos são obtidos pelo resto da divisão do tempo em segundos por 60. */
 
     System.out.printf("O tempo de duração do evento: %02d:%02d:%02d", horas, minutos, segundos);
-
-    dig.close();
 
         
     }

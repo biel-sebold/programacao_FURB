@@ -1,4 +1,4 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
 import java.util.Scanner;
 
@@ -25,8 +25,5 @@ public class Uni2Exe19 {
         System.out.println("O valor de A é igual a: " + A);
         System.out.println("O valor de C é igual a: " + resultadoC);
 
-        dig.close();
-
     }
-    
 }

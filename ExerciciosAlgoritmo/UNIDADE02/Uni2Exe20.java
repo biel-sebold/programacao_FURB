@@ -1,4 +1,4 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
 import java.util.Scanner;
 
@@ -20,7 +20,5 @@ public class Uni2Exe20 {
 
         System.out.println("Após desdobrar o papel, o número de quadrados visíveis é: " + numQuadrados);
 
-        dig.close();
     }
-    
 }

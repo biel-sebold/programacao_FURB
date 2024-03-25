@@ -1,4 +1,4 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
 import java.util.Scanner;
 
@@ -23,8 +23,6 @@ public class Uni2Exe18 {
         double valor = quantidadeAzulejos * preçoAzulejo;
 
         System.out.printf("O valor gasto foi: R$%.2f", valor);
-
-        dig.close();
 
     }
     

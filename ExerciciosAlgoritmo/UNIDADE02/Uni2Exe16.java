@@ -1,4 +1,4 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
 import java.util.Scanner;
 
@@ -22,11 +22,6 @@ public class Uni2Exe16 {
 
         double total = quantidadeLatas + quantidadeGarrafas + quantidadeGarrafas2;
         System.out.print("O total de litros de refirgerante comprados foi: " + total + "litros");
-
-        dig.close();
-
-
-
 
     }
     

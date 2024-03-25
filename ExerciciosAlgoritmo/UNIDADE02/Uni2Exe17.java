@@ -1,4 +1,4 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -34,7 +34,6 @@ public class Uni2Exe17 {
         System.out.printf("Salário Bruto: R$%.2f\n", salBruto);
         System.out.printf("Salário Líquido: R$%.2f", salLiquido);
 
-        dig.close();
     }
     
 }

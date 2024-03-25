@@ -1,11 +1,10 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
 import java.util.Scanner;
 
 public class Uni2Exe05 {
-    
     public static void main(String[] args) {
-        //Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
+     //Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
 
         Scanner dig = new Scanner (System.in);
         System.out.print("Informe quatro números: ");
@@ -19,13 +18,9 @@ public class Uni2Exe05 {
         System.out.println("O valor da diferença do produto de A e B pelo produto de C e D será: " + diff);
 
 
-        dig.close();
-
-
     //EXEMPLO CONCATENAÇÃO
         //System.out.printf("O valor da diferença do produto de %d e %d pelo produto de %d e %d é igual a %d", A, B, C, D, diff);
 
-        
+      }   
     }
     
-}

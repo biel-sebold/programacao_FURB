@@ -1,4 +1,4 @@
-package ExerciciosAlgoritmo;
+package ExerciciosAlgoritmo.UNIDADE02;
 
 import java.util.Scanner;
 
@@ -14,8 +14,6 @@ public class Uni2Exe09 {
 
     double valorReais = valorDolares * cotacao;
     System.out.printf("O atendente deve devolver à pessoa R$%.2f", valorReais);
-
-    dig.close();
 
     }
     
