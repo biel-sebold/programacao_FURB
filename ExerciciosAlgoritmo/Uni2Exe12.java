@@ -23,9 +23,9 @@ public class Uni2Exe12 {
 
         double xquadrado = Math.pow(x2-x1, 2);
         double yquadrado = Math.pow(y2-y1, 2);
-        double distânciaPontos = Math.sqrt(xquadrado+yquadrado);
+        double distancia = Math.sqrt(xquadrado+yquadrado);
 
-        System.out.printf("A distância dos pontos é igual a: %.4f ", distânciaPontos);
+        System.out.printf("A distância dos pontos é igual a: %.4f ", distancia);
 
         dig.close();
 
