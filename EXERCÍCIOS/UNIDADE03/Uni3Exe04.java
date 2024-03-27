@@ -6,16 +6,16 @@ public class Uni3Exe04 {
     public static void main(String[] args) {
         //Faça um programa para ler três notas de um aluno em uma disciplina e imprimir sua média ponderada (as notas têm pesos respectivos de 5, 3 e 2).
 
-        Scanner dig = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Informe a nota 1: ");
-        double nota1 = dig.nextDouble();
+        double nota1 = sc.nextDouble();
 
         System.out.print("Informe a nota 2: ");
-        double nota2 = dig.nextDouble();
+        double nota2 = sc.nextDouble();
 
         System.out.print("Informe a nota 3: ");
-        double nota3 = dig.nextDouble();
+        double nota3 = sc.nextDouble();
 
         double media = (nota1 * 5) + (nota2 * 3) + (nota3 * 2) / 10;
 

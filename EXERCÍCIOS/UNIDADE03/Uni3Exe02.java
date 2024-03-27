@@ -8,10 +8,10 @@ public class Uni3Exe02 {
         /*O valor do desconto é de R$ xxx
           O preço do par de sapatos com desconto é R$ xxx*/
 
-          Scanner dig = new Scanner(System.in);
+          Scanner sc = new Scanner(System.in);
 
           System.out.print("Informe o preço do par de sapatos: R$");
-          double preço = dig.nextDouble();
+          double preço = sc.nextDouble();
 
           double desconto = preço * 0.12;
           double valorDesconto = preço - desconto;
