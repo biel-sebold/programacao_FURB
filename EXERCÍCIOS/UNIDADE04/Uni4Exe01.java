@@ -11,13 +11,13 @@ public class Uni4Exe01 {
         System.out.print("Entre com as horas trabalhadas no mês: ");
         int horasMes = sc.nextInt();
 
-        System.out.print("Entre com o valor pago por hora: ");
-        int horasValor = sc.nextInt();
+        System.out.print("Entre com o valor pago por hora: R$");
+        double horasValor = sc.nextDouble();
 
         double salarioTotal = horasMes * horasValor;
 
         if (horasMes > 160) {
-            double salarioExtra = (horasMes * 160) * (horasValor/2);
+            double salarioExtra = (horasMes - 160) * (horasValor/2);
             salarioTotal = salarioTotal + salarioExtra;
             //salarioTotal += salarioExtra; (EQUIVALENTES)
         }
