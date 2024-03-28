@@ -8,12 +8,28 @@ public class Uni4Exe04 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Informe um número > 0: ");
+        System.out.print("Informe um número: ");
         double num = sc.nextDouble();
 
-
-
         
+        if (num < 0) {
+            System.out.println("NÚMERO INVÁLIDO: \n\s- Precisa ser > 0");
+            
+        } else if (num - (int) num > 0) {
+            System.out.println("Número tem casas decimais");
+            
+        } else{
+            System.out.println("Número não tem casas decimais");
+        }
+
+
+        // if (num - Math.floor(num) != 0.0) {
+        //     System.out.println("Número tem casas decimais");
+            
+        // } else{
+        //     System.out.println("Número não tem casas decimais");
+            
+        // } 
     }
     
 }
